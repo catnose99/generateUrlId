@@ -1,9 +1,12 @@
 {
   "name": "generate_url_id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert URL to alphanumeric characters",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/catnose99/generateUrlId/issues"
   },
-  "homepage": "https://github.com/catnose99/generateUrlId#readme"
+  "homepage": "https://github.com/catnose99/generateUrlId#readme",
+  "dependencies": {
+    "@types/node": "^13.7.7",
+    "typescript": "^3.8.3"
+  }
 }

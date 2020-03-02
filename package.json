@@ -1,0 +1,19 @@
+{
+  "name": "generate_url_id",
+  "version": "1.0.0",
+  "description": "Convert URL to alphanumeric characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catnose99/generateUrlId.git"
+  },
+  "author": "catnose99 <catnose99@gmail.com> (https://catnose99.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/catnose99/generateUrlId/issues"
+  },
+  "homepage": "https://github.com/catnose99/generateUrlId#readme"
+}

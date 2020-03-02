@@ -5,15 +5,15 @@ Convert URL to alphanumeric characters
 ## Install
 
 ```sh
-$ npm install generate_url_id
+$ npm install generate-url-id
 ```
 
 ## Usgae
 
 ```js
-import generateUrlId from "generate_url_id"
+import generateUrlId from "generate-url-id"
 
-const urlId = generateUrlId("https://www.npmjs.com/package/generate_url_id")
+const urlId = generateUrlId("https://www.npmjs.com/package/generate-url-id")
 console.log(urlId) // output: httpswwwnpmjscompackagegenerateurlid
 
 const japaneseUrlId = generateUrlId("https://テスト.com/これは日本語のURL")
